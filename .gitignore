@@ -1,0 +1,51 @@
+# ---- Runtime artifacts (keep out of Git) ----
+datasets/
+checkpoints/
+
+# ---- Python build / bytecode ----
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# ---- Virtual envs / package managers ----
+.venv/
+env/
+venv/
+.uv/
+.python-version
+
+# ---- Notebooks / Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_export/
+
+# ---- Testing / tooling caches ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.coverage
+htmlcov/
+
+# ---- Packaging / build outputs ----
+build/
+dist/
+*.egg-info/
+
+# ---- Editor / OS noise ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Env & local config ----
+.env
+.env.*
+*.local
+
+# ---- Logs & temp ----
+logs/
+*.log
+*.tmp
+.cache/

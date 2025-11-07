@@ -1,0 +1,18 @@
+[project]
+name = "sps-genai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"  
+dependencies = [
+    "fastapi[standard]>=0.116.2",
+    "numpy>=1.26.5",
+    "spacy>=3.6.1",
+    "torch>=2.4",
+    "torchvision>=0.19",
+    "pillow>=10.2",
+    "tqdm>=4.66",
+    "pip",
+    # spaCy model:
+    "en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl",
+]
